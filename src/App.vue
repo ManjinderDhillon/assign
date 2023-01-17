@@ -1,14 +1,11 @@
 <template>
-  <HelloWorld />
+  <AssignThree />
 </template>
-
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
 };
+</script>
+<script setup>
+import AssignThree from "./components/AssignThree.vue";
 </script>
