@@ -1,5 +1,5 @@
 <template>
-  <AssignThree />
+  <ModuleThree />
 </template>
 <script>
 export default {
@@ -7,5 +7,5 @@ export default {
 };
 </script>
 <script setup>
-import AssignThree from "./components/AssignThree.vue";
+import ModuleThree from "./components/ModuleThree.vue";
 </script>
