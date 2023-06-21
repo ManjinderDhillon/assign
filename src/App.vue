@@ -1,5 +1,8 @@
 <template>
-  <ModuleFive />
+  <Directives />
+  <ComputedComponent />
+  <WatchComponent />
+  <LifeCycle />
 </template>
 <script>
 export default {
@@ -7,5 +10,8 @@ export default {
 };
 </script>
 <script setup>
-import ModuleFive from "./components/ModuleFive.vue";
+import Directives from "./components/DirectivesComponent.vue";
+import ComputedComponent from "./components/ComputedComponent.vue";
+import WatchComponent from "./components/WatchComponent.vue";
+import LifeCycle from "./components/LifeCycle.vue";
 </script>
