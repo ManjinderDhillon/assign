@@ -1,5 +1,5 @@
 <template>
-  <AssignFive />
+  <ModuleFive />
 </template>
 <script>
 export default {
@@ -7,5 +7,5 @@ export default {
 };
 </script>
 <script setup>
-import AssignFive from "./components/AssignFive.vue";
+import ModuleFive from "./components/ModuleFive.vue";
 </script>
