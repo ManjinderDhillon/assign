@@ -1,8 +1,5 @@
 <template>
-  <Directives />
-  <ComputedComponent />
-  <WatchComponent />
-  <LifeCycle />
+  <ParentComponent />
 </template>
 <script>
 export default {
@@ -10,8 +7,5 @@ export default {
 };
 </script>
 <script setup>
-import Directives from "./components/DirectivesComponent.vue";
-import ComputedComponent from "./components/ComputedComponent.vue";
-import WatchComponent from "./components/WatchComponent.vue";
-import LifeCycle from "./components/LifeCycle.vue";
+import ParentComponent from "./components/ParentComponent.vue";
 </script>
